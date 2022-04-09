@@ -14,6 +14,7 @@
 		40BCF18B7BA87D2A8A0668D7 /* libPods-realWordAnim-realWordAnimTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE98781234F6B09BE93DBD8D /* libPods-realWordAnim-realWordAnimTests.a */; };
 		6325C9F1B5646774F80E23C5 /* libPods-realWordAnim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90938BA8EB0154C50323721C /* libPods-realWordAnim.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A5677C482801951D008B6338 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5677C472801951C008B6338 /* AppCenter-Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = realWordAnim/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90938BA8EB0154C50323721C /* libPods-realWordAnim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-realWordAnim.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F431EA1AE845EA4A8F19C22 /* Pods-realWordAnim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realWordAnim.release.xcconfig"; path = "Target Support Files/Pods-realWordAnim/Pods-realWordAnim.release.xcconfig"; sourceTree = "<group>"; };
+		A5677C472801951C008B6338 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "realWordAnim/AppCenter-Config.plist"; sourceTree = "<group>"; };
 		A9AF36AD1D736AA81325581B /* Pods-realWordAnim-realWordAnimTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realWordAnim-realWordAnimTests.release.xcconfig"; path = "Target Support Files/Pods-realWordAnim-realWordAnimTests/Pods-realWordAnim-realWordAnimTests.release.xcconfig"; sourceTree = "<group>"; };
 		B7F647F36E07CFE35604A8BE /* Pods-realWordAnim-realWordAnimTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realWordAnim-realWordAnimTests.debug.xcconfig"; path = "Target Support Files/Pods-realWordAnim-realWordAnimTests/Pods-realWordAnim-realWordAnimTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB655A31C71A77AF0D6AAC5D /* Pods-realWordAnim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realWordAnim.debug.xcconfig"; path = "Target Support Files/Pods-realWordAnim/Pods-realWordAnim.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		13B07FAE1A68108700A75B9A /* realWordAnim */ = {
 			isa = PBXGroup;
 			children = (
+				A5677C472801951C008B6338 /* AppCenter-Config.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -244,6 +247,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A5677C482801951D008B6338 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
